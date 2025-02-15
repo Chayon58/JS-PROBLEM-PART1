@@ -28,14 +28,3 @@ function kiloMeterToMiles(kilo){
     const mile = kilo * 0.621371;
     return mile;
 }
-
-
-function inchToFeet2(inch) {
-    const feetFraction = inch / 12;
-    const feetNumber = parseInt(feetFraction);
-    const inchRemaining = inch % 12;
-    const result = feetNumber + ' ft ' + inchRemaining + ' inch.'
-    return result;
-}
-
-const shubhHeight = inchToFeet(75);
